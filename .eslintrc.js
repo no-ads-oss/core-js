@@ -573,6 +573,7 @@ module.exports = {
         globalThis: true,
         queueMicrotask: true,
         AggregateError: true,
+        AsyncIterator: true,
         Iterator: true,
         Observable: true,
       },
