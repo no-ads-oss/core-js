@@ -1201,6 +1201,18 @@ const data = {
   },
   'esnext.async-iterator.constructor': {
   },
+  'esnext.async-iterator.drop': {
+  },
+  'esnext.async-iterator.filter': {
+  },
+  'esnext.async-iterator.from': {
+  },
+  'esnext.async-iterator.map': {
+  },
+  'esnext.async-iterator.take': {
+  },
+  'esnext.async-iterator.to-array': {
+  },
   'esnext.composite-key': {
   },
   'esnext.composite-symbol': {
