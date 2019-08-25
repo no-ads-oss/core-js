@@ -1,5 +1,28 @@
 ## Changelog
 ##### Unreleased
+- Added [iterator helpers stage 2 proposal](https://github.com/tc39/proposal-iterator-helpers):
+  - `Iterator`
+    - `Iterator.from`
+    - `Iterator#asIndexedPairs`
+    - `Iterator#drop`
+    - `Iterator#every`
+    - `Iterator#filter`
+    - `Iterator#find`
+    - `Iterator#forEach`
+    - `Iterator#map`
+    - `Iterator#reduce`
+    - `Iterator#some`
+    - `Iterator#take`
+    - `Iterator#toArray`
+    - `Iterator#@@toStringTag`
+  - `AsyncIterator`
+    - `AsyncIterator.from`
+    - `AsyncIterator#drop`
+    - `AsyncIterator#filter`
+    - `AsyncIterator#map`
+    - `AsyncIterator#take`
+    - `AsyncIterator#toArray`
+    - `AsyncIterator#@@toStringTag`
 - Added a workaround for iOS Safari MessageChannel + bfcache bug, [#624](https://github.com/zloirock/core-js/issues/624) 
 - Added compat data for Node 12.9 and FF 69
 - Fixed unnecessary exposing on `Symbol.matchAll` in `esnext.string.match-all`, [#626](https://github.com/zloirock/core-js/issues/626) 
