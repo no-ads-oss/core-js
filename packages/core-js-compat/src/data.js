@@ -1246,6 +1246,8 @@ const data = {
   },
   'esnext.iterator.find': {
   },
+  'esnext.iterator.flat-map': {
+  },
   'esnext.iterator.for-each': {
   },
   'esnext.iterator.from': {
